@@ -1,17 +1,17 @@
 # EVolve – ŞarjKarar
-Ankara (pilot: Çankaya) için elektrikli araç şarj istasyonu yer seçimi karar destek sistemi.
+A decision support system for electric vehicle charging station site selection in Ankara (pilot: Çankaya).
 
-**Grup 14** · Danışman: Dr. Öğr. Üyesi Didem Tufan · Ankara Bilim Üniversitesi
+**Group 14** · Advisor: Asst. Prof. Didem Tufan · Ankara Science University
 
-## Ekip
-| Ad | Sorumluluk |
+## Team
+| Name | Responsibility |
 |---|---|
-| Oğuz Aladağ | Karar çekirdeği (önemler, puanlama, gerekçe) |
-| Ezgi Naz Aydugan | Veri ve harita (EPDK, OSM, nüfus) |
-| Halilhan Baydar | Uygulama (arka uç + web harita) |
+| Oğuz Aladağ | Decision core (weights, scoring, justification) |
+| Ezgi Naz Aydugan | Data and map (EPDK, OSM, population) |
+| Halilhan Baydar | Application (backend + web map) |
 
-## v0 senaryosu
-Kullanıcı Çankaya'yı seçer; program açık verileri yükler, önemleri hesaplar, ilçeyi puanlar, 10 yer önerir ve her yer için gerekçe kartı gösterir.
+## v0 scenario
+The user selects Çankaya; the program loads open data, computes criterion weights, scores the district, recommends 10 sites and shows a justification card for each one.
 
-## Durum
-Kurulum aşaması (27 Kasım 2026). Kod ve çalıştırma adımları eklenecek.
+## Status
+Setup phase (27 November 2026). Code and run instructions will be added.
